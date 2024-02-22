@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+    body {
+      background: hsl(212, 45%, 89%);
+    }
+
+    * {
+      text-align: center;
+      font-family: 'Outfit';
+      padding: 0;
+      margin: 0;
+    }
+    .container {
+      height: 97vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .card {
+      width: 300px;
+      background-color: #fff;
+      box-shadow: 0px 0px 10px 5px hsl(212, 45%, 89%);
+      border-radius: 20px;
+    }
+
+    .image {
+      padding: 15px 15px 0 15px;
+    }
+
+    .image img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .title {
+      font-weight: 700;
+      font-size: 20px;
+      color: hsl(218, 44%, 22%);
+      padding: 15px 20px 0 20px;
+    }
+
+    .text {
+      font-size: 15px;
+      color: hsl(220, 15%, 55%);
+      padding: 15px 20px 40px 20px;
+    }
+
+    
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+      <div class="image">
+        <img src="images/image-qr-code.png" alt="QR code">
+      </div>
+    
+      <div class="title">
+        Improve your front-end skills by building projects
+      </div>
+    
+      <div class="text">
+        Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+      </div>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Mouad Kaaib</a>.
+  </div>
+</body>
+</html>
